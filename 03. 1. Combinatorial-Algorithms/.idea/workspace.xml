@@ -18,50 +18,61 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/P01_Permutations_without_Repetitions.java">
+        <entry file="file://$PROJECT_DIR$/src/permutation/P01_Permutations_without_Repetitions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-              <folding>
-                <element signature="e#306#307#0" expanded="true" />
-                <element signature="e#326#327#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/P02_Permutations_without_Repetitions_Swap_Algorithm.java">
+        <entry file="file://$PROJECT_DIR$/src/variation/P01_Variation_without_Repetition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="e#314#315#0" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="457">
+              <caret line="29" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/P03_Permutations_with_Repetitions.java">
+        <entry file="file://$PROJECT_DIR$/src/variation/P02_Variation_with_Repetition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="264">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/P03_Permutations_with_Repetitions_optimized.java">
+        <entry file="file://$PROJECT_DIR$/src/combination/P03_Combinations_count.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+            <state relative-caret-position="130">
+              <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/combination/P02_Combinations_without_Repetitions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#254#255#0" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/combination/P01_Combinations_with_Repetitions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" column="49" lean-forward="true" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -83,6 +94,15 @@
         <option value="$PROJECT_DIR$/src/P02_Permutations_with_Repetitions.java" />
         <option value="$PROJECT_DIR$/src/P03_Permutations_with_Repetitions.java" />
         <option value="$PROJECT_DIR$/src/P03_Permutations_with_Repetitions_optimized.java" />
+        <option value="$PROJECT_DIR$/src/permutation/P03_Permutations_with_Repetitions_optimized.java" />
+        <option value="$PROJECT_DIR$/src/variation/P01_Variation_without_Repetition.java" />
+        <option value="$PROJECT_DIR$/src/variation/P01_Variation_with_Repetition.java" />
+        <option value="$PROJECT_DIR$/src/variation/P02_Variation_with_Repetition.java" />
+        <option value="$PROJECT_DIR$/src/combination/P01_Combinations_without_Repetitions.java" />
+        <option value="$PROJECT_DIR$/src/variation/P03_Variation_with_Repetition_itterative.java" />
+        <option value="$PROJECT_DIR$/src/combination/P01_Combinations_with_Repetitions.java" />
+        <option value="$PROJECT_DIR$/src/combination/P02_Combinations_without_Repetitions.java" />
+        <option value="$PROJECT_DIR$/src/combination/P03_Combinations_count.java" />
       </list>
     </option>
   </component>
@@ -116,12 +136,30 @@
               <item name="03. 1. Combinatorial-Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Combinatorial-Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="03. 1. Combinatorial-Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="combination" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Combinatorial-Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="03. 1. Combinatorial-Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="permutation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Combinatorial-Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="03. 1. Combinatorial-Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="variation" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -140,6 +178,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="combination" />
+      <recent name="variation" />
       <recent name="" />
     </key>
   </component>
@@ -155,41 +195,79 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.P03_Permutations_with_Repetitions_optimized">
-    <configuration name="P01_Permutations_without_Repetitions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="permutation.P01_Permutations_without_Repetitions" />
+  <component name="RunManager" selected="Application.P03_Combinations_count">
+    <configuration name="P01_Combinations_with_Repetitions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="combination.P01_Combinations_with_Repetitions" />
       <module name="Combinatorial-Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="combination.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P02_Permutations_without_Repetitions_Swap_Algorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="permutation.P02_Permutations_without_Repetitions_Swap_Algorithm" />
+    <configuration name="P02_Combinations_without_Repetitions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="combination.P02_Combinations_without_Repetitions" />
       <module name="Combinatorial-Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="combination.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P03_Permutations_with_Repetitions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="permutation.P03_Permutations_with_Repetitions" />
+    <configuration name="P02_Variation_with_Repetition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="variation.P02_Variation_with_Repetition" />
       <module name="Combinatorial-Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="variation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P03_Permutations_with_Repetitions_optimized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="permutation.P03_Permutations_with_Repetitions_optimized" />
+    <configuration name="P03_Combinations_count" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="combination.P03_Combinations_count" />
       <module name="Combinatorial-Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="combination.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P03_Variation_with_Repetition_itterative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="variation.P03_Variation_with_Repetition_itterative" />
+      <module name="Combinatorial-Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="variation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.P03_Permutations_with_Repetitions_optimized" />
-        <item itemvalue="Application.P03_Permutations_with_Repetitions" />
-        <item itemvalue="Application.P02_Permutations_without_Repetitions_Swap_Algorithm" />
-        <item itemvalue="Application.P01_Permutations_without_Repetitions" />
+        <item itemvalue="Application.P03_Combinations_count" />
+        <item itemvalue="Application.P02_Combinations_without_Repetitions" />
+        <item itemvalue="Application.P01_Combinations_with_Repetitions" />
+        <item itemvalue="Application.P03_Variation_with_Repetition_itterative" />
+        <item itemvalue="Application.P02_Variation_with_Repetition" />
       </list>
     </recent_temporary>
   </component>
@@ -203,18 +281,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558405261933</updated>
-      <workItem from="1558405265455" duration="3617000" />
+      <workItem from="1558405265455" duration="5038000" />
+      <workItem from="1558490348934" duration="5818000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3617000" />
+    <option name="totallyTimeSpent" value="10856000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-26" y="24" width="1936" height="1056" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29264393" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16577825" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Persistence" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -222,22 +301,21 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Capture Tool" order="7" />
-      <window_info anchor="bottom" id="CheckStyle" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32827735" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38786566" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32909605" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32827735" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="bottom" id="CheckStyle" order="13" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -248,39 +326,27 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Mongo Explorer" order="9" />
+      <window_info anchor="right" id="Maven" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/P03_Permutations_with_Repetitions_optimized.java</url>
-          <line>14</line>
-          <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/P01_Permutations_without_Repetitions.java">
+    <entry file="file://$PROJECT_DIR$/src/permutation/P03_Permutations_with_Repetitions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        <state relative-caret-position="440">
+          <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
           <folding>
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/P02_Permutations_without_Repetitions_Swap_Algorithm.java">
+    <entry file="file://$PROJECT_DIR$/src/permutation/P02_Permutations_without_Repetitions_Swap_Algorithm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="546">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
           <folding>
             <element signature="e#314#315#0" expanded="true" />
             <element signature="e#336#337#0" expanded="true" />
@@ -288,20 +354,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/P03_Permutations_with_Repetitions.java">
+    <entry file="file://$PROJECT_DIR$/src/variation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/permutation/P01_Permutations_without_Repetitions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/variation/P01_Variation_without_Repetition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="29" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/permutation/P03_Permutations_with_Repetitions_optimized.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="46" lean-forward="true" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/variation/P03_Variation_with_Repetition_itterative.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/variation/P02_Variation_with_Repetition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/combination/P01_Combinations_with_Repetitions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="49" lean-forward="true" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/combination/P02_Combinations_without_Repetitions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/P03_Permutations_with_Repetitions_optimized.java">
+    <entry file="file://$PROJECT_DIR$/src/combination/P03_Combinations_count.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+        <state relative-caret-position="130">
+          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
         </state>
       </provider>
     </entry>
