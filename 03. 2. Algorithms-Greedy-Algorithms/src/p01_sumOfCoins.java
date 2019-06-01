@@ -54,8 +54,6 @@ public class p01_sumOfCoins {
                 }
 
                 result.put(coinsSorted[coinIndex], result.get(coinsSorted[coinIndex]) + 1);
-
-
         }
 
         if(targetSum != currentSum){
