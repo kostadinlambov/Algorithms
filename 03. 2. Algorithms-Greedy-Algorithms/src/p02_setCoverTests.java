@@ -4,7 +4,7 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.List;
 
-public class p02_secCoverTests {
+public class p02_setCoverTests {
 
     @Test
     public void TestWithProvidedExample() {
@@ -17,7 +17,7 @@ public class p02_secCoverTests {
         sets.add(new int[]{11, 20, 30, 40});
         sets.add(new int[]{3, 7, 40});
 
-        List<int[]> selectedSets = p02_secCover.chooseSets(sets, universe);
+        List<int[]> selectedSets = p02_setCover.chooseSets(sets, universe);
 
         List<int[]> expectedResult = new ArrayList<>();
         expectedResult.add(sets.get(2));
@@ -39,7 +39,7 @@ public class p02_secCoverTests {
         sets.add(new int[]{5});
         sets.add(new int[]{3});
 
-        List<int[]> selectedSets = p02_secCover.chooseSets(sets, universe);
+        List<int[]> selectedSets = p02_setCover.chooseSets(sets, universe);
 
         List<int[]> expectedResult = new ArrayList<>();
         expectedResult.add(sets.get(1));
@@ -61,7 +61,7 @@ public class p02_secCoverTests {
         sets.add(new int[]{5});
         sets.add(new int[]{3});
 
-        List<int[]> selectedSets = p02_secCover.chooseSets(sets, universe);
+        List<int[]> selectedSets = p02_setCover.chooseSets(sets, universe);
 
         List<int[]> expectedResult = new ArrayList<>();
         expectedResult.add(sets.get(0));
@@ -81,7 +81,7 @@ public class p02_secCoverTests {
         sets.add(new int[]{4, 5});
         sets.add(new int[]{1, 3, 4, 6});
 
-        List<int[]> selectedSets = p02_secCover.chooseSets(sets, universe);
+        List<int[]> selectedSets = p02_setCover.chooseSets(sets, universe);
 
         List<int[]> expectedResult = new ArrayList<>();
         expectedResult.add(sets.get(4));
