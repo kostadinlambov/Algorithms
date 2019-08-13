@@ -1,10 +1,12 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Scanner;
 
 public class p01_sumOfCoins {
-
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
@@ -42,18 +44,18 @@ public class p01_sumOfCoins {
 
         while (targetSum > 0 && targetSum > currentSum && coinIndex >= 0 ) {
 
-                if (currentSum + coinsSorted[coinIndex] > targetSum) {
-                    coinIndex--;
-                    continue;
-                }
+            if (currentSum + coinsSorted[coinIndex] > targetSum) {
+                coinIndex--;
+                continue;
+            }
 
-                currentSum += coinsSorted[coinIndex];
+            currentSum += coinsSorted[coinIndex];
 
-                if (!result.containsKey(coinsSorted[coinIndex])) {
-                    result.put(coinsSorted[coinIndex], 0);
-                }
+            if (!result.containsKey(coinsSorted[coinIndex])) {
+                result.put(coinsSorted[coinIndex], 0);
+            }
 
-                result.put(coinsSorted[coinIndex], result.get(coinsSorted[coinIndex]) + 1);
+            result.put(coinsSorted[coinIndex], result.get(coinsSorted[coinIndex]) + 1);
         }
 
         if(targetSum != currentSum){

@@ -1,10 +1,18 @@
 package combination;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.math.BigInteger;
 
 public class P03_Combinations_count {
-    public static void main(String[] args) {
-        BigInteger binom = binom(25, 10);
+    public static void main(String[] args) throws IOException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+
+        int elementsCount = Integer.parseInt(reader.readLine());
+        int slotsCount = Integer.parseInt(reader.readLine());
+
+        BigInteger binom = binom(elementsCount, slotsCount);
         System.out.println(binom);
     }
 
@@ -16,6 +24,8 @@ public class P03_Combinations_count {
             return BigInteger.ONE;
         }
 
-        return binom(elementsCount-1, slotsCount - 1).add(binom(elementsCount-1 , slotsCount));
+        return binom(elementsCount-1, slotsCount - 1)
+                .add(binom(elementsCount-1 , slotsCount));
     }
+
 }
