@@ -57,7 +57,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.p04_Rod_Cutting">
     <configuration name="p01_Fibonacci_Sequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="p01_Fibonacci_Sequence" />
       <module name="Dynamic-Programming-Lab" />
@@ -65,8 +65,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="p02_Longest_Increasing_Subsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p02_Longest_Increasing_Subsequence" />
+      <module name="Dynamic-Programming-Lab" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="p03_Move_Down_Right_Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p03_Move_Down_Right_Sum" />
+      <module name="Dynamic-Programming-Lab" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="p04_Rod_Cutting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="p04_Rod_Cutting" />
+      <module name="Dynamic-Programming-Lab" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.p04_Rod_Cutting" />
+        <item itemvalue="Application.p03_Move_Down_Right_Sum" />
+        <item itemvalue="Application.p02_Longest_Increasing_Subsequence" />
         <item itemvalue="Application.p01_Fibonacci_Sequence" />
       </list>
     </recent_temporary>
@@ -81,7 +105,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565774774633</updated>
-      <workItem from="1565774778481" duration="2268000" />
+      <workItem from="1565774778481" duration="21638000" />
+      <workItem from="1565866817703" duration="6631000" />
     </task>
     <servers />
   </component>
